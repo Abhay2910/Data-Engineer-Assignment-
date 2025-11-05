@@ -9,12 +9,16 @@ This repository contains the solution for the 100x Data Engineer assessment. It 
 - `data/raw.json` : Contains property information including address, price, HOA fees, rehab estimates, and valuations.
 
 ## Project Structure
-
+.
 ├── data/
-│ └── raw.json
+│   └── raw.json
 ├── sql/
-│ └── create_tables.sql
+│   └── create_tables.sql
 ├── scripts/
-│ └── etl_property_data.py
+│   └── etl_property_data.py
+├── docker-compose.initial.yml
 ├── requirements.txt
-└── README.md
+├── README.md
+├── config.py
+└── .gitignore
+
